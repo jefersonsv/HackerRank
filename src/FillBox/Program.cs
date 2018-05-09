@@ -60,6 +60,7 @@ namespace FillBox
                 }
             }
 
+            Console.SetCursorPosition(0, board.Height + 1);
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
         }
